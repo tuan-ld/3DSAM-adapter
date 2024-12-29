@@ -1,0 +1,3 @@
+python train.py --data colon --snapshot_path "achieve" --data_prefix "data/Task10_Colon"  --rand_crop_size 128
+
+python test.py --data kits --snapshot_path "achieve" --data_prefix "data/Task10_Colon"  --rand_crop_size 128 --num_prompts 1
